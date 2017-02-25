@@ -7,7 +7,7 @@ body {
 .title {
 	color: #fff;
 	font-size: 200%;
-	background-color: #990000;
+	background-color: #ce422b;
 	padding: 2px;
 	border-radius: 20px;
 	width: 400px;
@@ -36,7 +36,7 @@ body {
 }
 
 .active {
-    background-color: #990000;
+    background-color: #ce422b;
 	color: #fff;
 	margin: auto;
 	font-size: 180%;
