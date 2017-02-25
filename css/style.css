@@ -36,7 +36,7 @@ body {
 }
 
 .rustbutton {
-	background-color: #666666;
+	background-color: #ce422b;
 	color: #fff;
 	margin: auto;
 	font-size: 180%;
@@ -45,7 +45,7 @@ body {
 }
 
 .active {
-    background-color: #ce422b;
+    background-color: #a83524;
 	color: #fff;
 	margin: auto;
 	font-size: 180%;
