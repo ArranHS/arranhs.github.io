@@ -1,4 +1,4 @@
-scizornician.github.io
+http://arranhs.github.io
 ======================
 
-My personal site
+My personal test site
