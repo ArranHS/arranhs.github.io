@@ -1,0 +1,50 @@
+#title {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #303030;
+  max-width: 600px;
+}
+
+#header {
+  text-align: center;
+  background-color: #D8D8D8;
+  border-radius: 20px;
+  border-style: dotted;
+  color: black;
+}
+
+#textbg {
+  text-align: center;
+  background-color: #D8D8D8;
+  border-radius: 20px;
+  border-style: dotted;
+  max-width: 500px;
+  color: black;
+}
+
+#leftmenu {
+  text-align: left;
+  background-color: #D8D8D8;
+  border-radius: 10px;
+  border-style: dotted;
+  max-width: 150px;
+  color: black;
+}
+
+.button {
+  text align: center;
+  background-color: #888888;
+  border-radius: 20px;
+}
+
+#nobulletpointsli {
+    list-style-type: none;
+}
+
+.headerbutton {
+  text align: center;
+  background-color: #808080;
+  border-style: outset;
+  border-radius: 15px;
+}
+

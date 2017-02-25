@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: #333333;
+}
+
+.title {
+	color: #fff;
+	font-size: 200%;
+	background-color: #990000;
+	padding: 2px;
+	border-radius: 20px;
+	width: 400px;
+	height: auto;
+	text-align: center;   
+}
+
+.aboutme {
+	background-color: #666666;
+	color: #fff;
+	font-size: 150%;
+	padding: 20px;
+	border-radius: 20px;
+	height: 150px;
+	width: 1000px;
+	margin: auto;
+}
+
+.rustbutton {
+	background-color: #666666;
+	color: #fff;
+	margin: auto;
+	font-size: 180%;
+	width: 180px;
+	border-radius: 20px;
+}
+
+.active {
+    background-color: #990000;
+	color: #fff;
+	margin: auto;
+	font-size: 180%;
+	width: 180px;
+	border-radius: 20px;
+}
+
+.ruststats {
+	background-color: #666666;
+	color: #fff;
+	font-size: 150%;
+	padding: 20px;
+	border-radius: 20px;
+	height: 150px;
+	width: 1000px;
+	margin: auto;
+}
+	
