@@ -19,6 +19,11 @@ $('.topright').click(function() {
    $('.aboutme').slideDown();
 });
 
+$('.helibutton').click(function() {
+   $(this).toggleClass('active');
+   $('.helitext').slideToggle();
+});
+
 function openTab(evt, tabContent) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -33,4 +38,5 @@ function openTab(evt, tabContent) {
     evt.currentTarget.className += " active";
     document.getElementById(aboutme).style.display = none;
 }
+
 $(document).ready(main);
