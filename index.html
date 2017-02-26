@@ -9,8 +9,15 @@
 <div class='title'>
 	<h1>ArranHS</h1>
 </div><br>
-<div class='tabbar'>
-    <p>| Heli Timer | </p>
+<div class="tab">
+  <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'London')">Heli Timer</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Paris')">Filler</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Tokyo')">Filler</a>
+</div>
+<div id="London" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Heli Timer</h3>
+  <p>The heli timer will live here.</p>
 </div>
 <p>
 	<div class="aboutme">

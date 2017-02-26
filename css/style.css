@@ -12,16 +12,51 @@ body {
 	border-radius: 20px;
 	width: 400px;
 	height: auto;
-	text-align: center;   
+	text-align: center;
+	border: 1px solid #ccc;   
 }
 
-.tabbar {
-	background-color: #ce422b;
-	color: #fff;
-	padding: 20px;
-	border-radius: 20px;
-	height: 30px;
-	width: 1200px;
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ce422b;
+}
+
+div.tab a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+div.tab a:hover {
+    background-color: #a83524;
+    border-radius: 10px;
+}
+
+div.tab a:focus, .active {
+    background-color: #a83524;
+    border-radius: 10px;
+}
+
+.tabcontent {
+    display: none;
+    color: white;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #666666;
+    border-radius: 20px;
+}
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .aboutme {
@@ -33,6 +68,7 @@ body {
 	height: 150px;
 	width: 1000px;
 	margin: auto;
+	border: 1px solid #ccc;
 }
 
 .rustbutton {
@@ -42,6 +78,7 @@ body {
 	font-size: 180%;
 	width: 180px;
 	border-radius: 20px;
+	border: 1px solid #ccc;
 }
 
 .active {
@@ -51,6 +88,7 @@ body {
 	font-size: 180%;
 	width: 180px;
 	border-radius: 20px;
+	border: 1px solid #ccc;
 }
 
 .ruststats {
@@ -62,5 +100,6 @@ body {
 	height: 150px;
 	width: 1000px;
 	margin: auto;
+	border: 1px solid #ccc;
 }
 	
