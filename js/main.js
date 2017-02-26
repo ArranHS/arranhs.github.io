@@ -12,7 +12,11 @@ function main() {
 }
 
 $('.tab').click(function() {
-   $('.aboutme').slideToggle();
+   $('.aboutme').slideUp();
+});
+
+$('.topright').click(function() {
+   $('.aboutme').slideDown();
 });
 
 function openTab(evt, tabContent) {
