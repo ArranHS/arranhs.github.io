@@ -59,6 +59,13 @@ div.tab a:focus, .active {
     font-size: 20px;
 }
 
+.link {
+	text-decoration: none;
+	font-weight: bold;
+	font-style: oblique;
+	color: white;
+}
+
 .aboutme {
 	background-color: #666666;
 	color: #fff;
