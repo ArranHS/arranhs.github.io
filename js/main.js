@@ -17,6 +17,8 @@ $('.tab').click(function() {
 
 $('.topright').click(function() {
    $('.aboutme').slideDown();
+   $('a:focus').toggleClass('tab');
+
 });
 
 $('.helibutton').click(function() {
@@ -27,6 +29,7 @@ $('.helibutton').click(function() {
 function openTab(evt, tabContent) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
+    aboutme = document.getElementsByClassName("aboutme");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
