@@ -1,14 +1,19 @@
 function main() {
   $('.title').hide().fadeIn(1800);
-  $('.tabbar').hide().fadeIn(1800);
-  $('.aboutme').hide().fadeIn(2200);
-  $('.rustbutton').hide().fadeIn(2400);
+  $('.tab').hide().fadeIn(2000);
+  $('.tabbar').hide().fadeIn(2200);
+  $('.aboutme').hide().fadeIn(2400);
+  $('.rustbutton').hide().fadeIn(2600);
   $('.rustbutton').on('click', function() {
     $(this).toggleClass('active');
     $('.ruststats').slideToggle();
   });
   $('.ruststats').hide();
 }
+
+$('.tab').click(function() {
+   $('.aboutme').slideToggle();
+});
 
 function openTab(evt, tabContent) {
     var i, tabcontent, tablinks;
