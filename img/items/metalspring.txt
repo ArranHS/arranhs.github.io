@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1835797460,
+    "shortname": "metalspring",
+    "displayName": {
+        "token": "metalspring.name",
+        "english": "Metal Spring"
+    },
+    "displayDescription": {
+        "token": "metalspring.desc",
+        "english": "A metal spring. Used to provide motion or resistance in objects"
+    },
+    "iconSprite": {
+        "instanceID": 72468
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 77010
+    },
+    "inventoryGrabSound": {
+        "instanceID": 77010
+    },
+    "inventoryDropSound": {
+        "instanceID": 62958
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "4a3a2111b446246488d96134dbcf5714"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 4.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

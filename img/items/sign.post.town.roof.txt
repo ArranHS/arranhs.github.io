@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 644359987,
+    "shortname": "sign.post.town.roof",
+    "displayName": {
+        "token": "sign.post.town.roof",
+        "english": "Two Sided Town Sign Post"
+    },
+    "displayDescription": {
+        "token": "sign.post.town.roof.desc",
+        "english": "A double sided town sign post, with roof, that you can plant into terrain"
+    },
+    "iconSprite": {
+        "instanceID": 39130
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 52008
+    },
+    "inventoryGrabSound": {
+        "instanceID": 52008
+    },
+    "inventoryDropSound": {
+        "instanceID": 36440
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 17114
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131762
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 50.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "6217438908d05894b8544d53484df7db"
+    },
+    "showCrosshair": false
+}
+

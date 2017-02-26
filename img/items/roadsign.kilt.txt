@@ -1,0 +1,115 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1595790889,
+    "shortname": "roadsign.kilt",
+    "displayName": {
+        "token": "roadsign.kilt",
+        "english": "Road Sign Kilt"
+    },
+    "displayDescription": {
+        "token": "roadsign.kilt.desc",
+        "english": "A shoddy piece of leg armor made from Metal Fragments and Leather."
+    },
+    "iconSprite": {
+        "instanceID": 131240
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 91948
+    },
+    "inventoryGrabSound": {
+        "instanceID": 91948
+    },
+    "inventoryDropSound": {
+        "instanceID": 124966
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "657daf5b8b267fb4f8f4d61f6cc9de4d"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "8c9313e7204eb0c45b7818d9f540728a"
+    },
+    "protectionProperties": {
+        "instanceID": 81984
+    },
+    "armorProperties": {
+        "instanceID": 99504
+    },
+    "movementProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 132354
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132760
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132330
+            },
+            "amount": 2.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

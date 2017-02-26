@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1295154089,
+    "shortname": "explosive.satchel",
+    "displayName": {
+        "token": "explosive.satchel",
+        "english": "Satchel Charge"
+    },
+    "displayDescription": {
+        "token": "explosive.satchel.desc",
+        "english": "Small explosive package constructed of beancan grenades. Useful for destroying wood and sheet metal doors"
+    },
+    "iconSprite": {
+        "instanceID": 108340
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "879a05740566bd946a8f932830871c8f"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "e1ec443c0a4d0af499350c75a60e42ad"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 134912
+            },
+            "amount": 4.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 133648
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132118
+            },
+            "amount": 1.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1
+}
+

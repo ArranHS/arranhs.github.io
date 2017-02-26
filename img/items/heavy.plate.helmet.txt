@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1351172108,
+    "shortname": "heavy.plate.helmet",
+    "displayName": {
+        "token": "heavy.plate.helmet",
+        "english": "Heavy Plate Helmet"
+    },
+    "displayDescription": {
+        "token": "heavy.plate.helmet.desc",
+        "english": "Heavy Plate Helmet"
+    },
+    "iconSprite": {
+        "instanceID": 72828
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 45382
+    },
+    "inventoryGrabSound": {
+        "instanceID": 45382
+    },
+    "inventoryDropSound": {
+        "instanceID": 17458
+    },
+    "condition": {
+        "enabled": true,
+        "max": 1000.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "543fd067492afc64e87aee2eed6d8d0f"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "86e51ea18e1768b478673e9171d12feb"
+    },
+    "protectionProperties": {
+        "instanceID": 69286
+    },
+    "armorProperties": {
+        "instanceID": 74972
+    },
+    "movementProperties": {
+        "instanceID": 122580
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 132522
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 5.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

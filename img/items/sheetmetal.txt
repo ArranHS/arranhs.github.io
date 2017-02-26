@@ -1,0 +1,93 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1617374968,
+    "shortname": "sheetmetal",
+    "displayName": {
+        "token": "sheetmetal.name",
+        "english": "Sheet Metal"
+    },
+    "displayDescription": {
+        "token": "sheetmetal.desc",
+        "english": "Sheet metal scraps"
+    },
+    "iconSprite": {
+        "instanceID": 48280
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 91948
+    },
+    "inventoryGrabSound": {
+        "instanceID": 91948
+    },
+    "inventoryDropSound": {
+        "instanceID": 124966
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "a02af398422fd994bb30d034f1f4bf1e"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 6.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

@@ -1,0 +1,103 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1224714193,
+    "shortname": "sign.post.town",
+    "displayName": {
+        "token": "sign.post.town",
+        "english": "One Sided Town Sign Post"
+    },
+    "displayDescription": {
+        "token": "sign.post.town.desc",
+        "english": "A one sided town sign post, that you can plant into terrain"
+    },
+    "iconSprite": {
+        "instanceID": 104128
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 52008
+    },
+    "inventoryGrabSound": {
+        "instanceID": 52008
+    },
+    "inventoryDropSound": {
+        "instanceID": 36440
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 114772
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131762
+            },
+            "amount": 500.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "1d7fa7e1afa3cde43beae28d5eb2ebdd"
+    },
+    "showCrosshair": false
+}
+

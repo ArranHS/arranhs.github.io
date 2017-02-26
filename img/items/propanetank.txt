@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1974032895,
+    "shortname": "propanetank",
+    "displayName": {
+        "token": "propanetank.name",
+        "english": "Empty Propane Tank"
+    },
+    "displayDescription": {
+        "token": "propanetank.desc",
+        "english": "Strong metal object"
+    },
+    "iconSprite": {
+        "instanceID": 32780
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 5,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 82252
+    },
+    "inventoryGrabSound": {
+        "instanceID": 82252
+    },
+    "inventoryDropSound": {
+        "instanceID": 107600
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": "6cce3fa09dede43e2914d1d3813cc9cc"
+    },
+    "physImpactMed": {
+        "guid": "1aa33a0a8e6074c718fe6c5510a4a7a5"
+    },
+    "physImpactHard": {
+        "guid": "f956079fca3bf4d2b82dc9a88882c88b"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "2a2dc296b4dfa644aa52a8769a8587ab"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

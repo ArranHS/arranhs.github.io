@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1755466030,
+    "shortname": "explosives",
+    "displayName": {
+        "token": "explosives",
+        "english": "Explosives"
+    },
+    "displayDescription": {
+        "token": "explosives.desc",
+        "english": "Explosives, a component of C4."
+    },
+    "iconSprite": {
+        "instanceID": 115452
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 100,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "eb0b8876afde98849be2cb5c37dedecd"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131806
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131850
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131814
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 1
+}
+

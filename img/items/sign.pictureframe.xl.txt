@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1338515426,
+    "shortname": "sign.pictureframe.xl",
+    "displayName": {
+        "token": "sign.pictureframe.xl",
+        "english": "XL Picture Frame"
+    },
+    "displayDescription": {
+        "token": "sign.pictureframe.xl.desc",
+        "english": "An extra large canvas for artists paintings"
+    },
+    "iconSprite": {
+        "instanceID": 92806
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 69034
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69034
+    },
+    "inventoryDropSound": {
+        "instanceID": 131168
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 49534
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131762
+            },
+            "amount": 300.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 100.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "23561d61c795db14783150c043a105c3"
+    },
+    "showCrosshair": false
+}
+

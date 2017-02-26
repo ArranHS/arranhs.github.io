@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 2033918259,
+    "shortname": "pistol.python",
+    "displayName": {
+        "token": "pistol.pyhon",
+        "english": "Python Revolver"
+    },
+    "displayDescription": {
+        "token": "pistol.python.desc",
+        "english": "A High Powered six-shooter."
+    },
+    "iconSprite": {
+        "instanceID": 25602
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 114314
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114314
+    },
+    "inventoryDropSound": {
+        "instanceID": 124526
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.25,
+            "fractionMax": 0.75
+        }
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8199aae5e40e22b44afdda92150be8d6"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "7f486bc52f6a9da408456e25e3f6a104"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131928
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132978
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+
+ItemModContainer
+{
+    "capacity": 3,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        4,
+        16,
+        8
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

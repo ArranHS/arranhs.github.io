@@ -1,0 +1,110 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 68998734,
+    "shortname": "botabag",
+    "displayName": {
+        "token": "botabag",
+        "english": "Bota Bag"
+    },
+    "displayDescription": {
+        "token": "botabag.desc",
+        "english": "A canteen used to carry Water. Left click to drink, right click to fill from water sources, or to pour out"
+    },
+    "iconSprite": {
+        "instanceID": 112826
+    },
+    "category": 2,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "498f16670ae2deb45be74d8d368c8110"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 500,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": []
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "c770f6b140127dc4890b4fc6b4e18ae1"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 15.0,
+    "amountToCreate": 1
+}
+

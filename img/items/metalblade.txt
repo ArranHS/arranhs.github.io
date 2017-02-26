@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1567404401,
+    "shortname": "metalblade",
+    "displayName": {
+        "token": "metalblade.name",
+        "english": "Metal Blade"
+    },
+    "displayDescription": {
+        "token": "metalblade.desc",
+        "english": "A Metal Blade for making melee weapons"
+    },
+    "iconSprite": {
+        "instanceID": 103176
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 82252
+    },
+    "inventoryGrabSound": {
+        "instanceID": 82252
+    },
+    "inventoryDropSound": {
+        "instanceID": 107600
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "0f660851e60d2424c80bd9c7afab9380"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 30.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

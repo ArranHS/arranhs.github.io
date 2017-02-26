@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 3506418,
+    "shortname": "rope",
+    "displayName": {
+        "token": "rope.name",
+        "english": "Rope"
+    },
+    "displayDescription": {
+        "token": "rope.desc",
+        "english": "A Length of Rope"
+    },
+    "iconSprite": {
+        "instanceID": 56332
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 2,
+    "occupySlots": 0,
+    "stackable": 50,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 43426
+    },
+    "inventoryGrabSound": {
+        "instanceID": 43426
+    },
+    "inventoryDropSound": {
+        "instanceID": 27024
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "edcf5ff9d1d32014b93fc7ba7c1e3510"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 30.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

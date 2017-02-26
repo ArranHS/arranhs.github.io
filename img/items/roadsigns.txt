@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -847065290,
+    "shortname": "roadsigns",
+    "displayName": {
+        "token": "roadsigns.name",
+        "english": "Road Signs"
+    },
+    "displayDescription": {
+        "token": "roadsigns.desc",
+        "english": "Some road signs made of metal"
+    },
+    "iconSprite": {
+        "instanceID": 107190
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 91948
+    },
+    "inventoryGrabSound": {
+        "instanceID": 91948
+    },
+    "inventoryDropSound": {
+        "instanceID": 124966
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "5f2f7c0f55654294c86d6e002af5cd48"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 3.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

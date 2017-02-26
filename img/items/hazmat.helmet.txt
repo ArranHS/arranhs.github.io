@@ -1,0 +1,115 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1079752220,
+    "shortname": "hazmat.helmet",
+    "displayName": {
+        "token": "hazmat.helmet",
+        "english": "Hazmat Helmet"
+    },
+    "displayDescription": {
+        "token": "hazmat.helmet.desc",
+        "english": "A Helmet."
+    },
+    "iconSprite": {
+        "instanceID": 120044
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 127676
+    },
+    "inventoryGrabSound": {
+        "instanceID": 127676
+    },
+    "inventoryDropSound": {
+        "instanceID": 15980
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "38b98dcc860ae3045b65b43bf5177d09"
+    },
+    "protectionProperties": {
+        "instanceID": 84910
+    },
+    "armorProperties": {
+        "instanceID": 74972
+    },
+    "movementProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 132328
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132330
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

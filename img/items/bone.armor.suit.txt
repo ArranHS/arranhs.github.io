@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 569119686,
+    "shortname": "bone.armor.suit",
+    "displayName": {
+        "token": "bone.armor.suit",
+        "english": "Bone Armor"
+    },
+    "displayDescription": {
+        "token": "bone.armor.suit.desc",
+        "english": "A suit of armor made of bones"
+    },
+    "iconSprite": {
+        "instanceID": 115090
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "14b2aed175a2a0b4ea4f8022c8a849ae"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "18b2d4398e33cb945be3825b1cf41c34"
+    },
+    "protectionProperties": {
+        "instanceID": 75678
+    },
+    "armorProperties": {
+        "instanceID": 47416
+    },
+    "movementProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 132118
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131740
+            },
+            "amount": 150.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

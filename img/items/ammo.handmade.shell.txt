@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 2115555558,
+    "shortname": "ammo.handmade.shell",
+    "displayName": {
+        "token": "ammo.handmade.shell",
+        "english": "Handmade Shell"
+    },
+    "displayDescription": {
+        "token": "ammo.handmade.shell.desc",
+        "english": "Shoddy ammo with multiple projectiles."
+    },
+    "iconSprite": {
+        "instanceID": 131156
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "99a05687f97d691488b38985a589968b"
+    },
+    "mods": [],
+    "ammoType": 16,
+    "numProjectiles": 20,
+    "projectileSpread": 8.0,
+    "projectileVelocity": 150.0,
+    "projectileVelocitySpread": 20.0,
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131764
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131806
+            },
+            "amount": 5.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 8.0,
+    "amountToCreate": 2
+}
+

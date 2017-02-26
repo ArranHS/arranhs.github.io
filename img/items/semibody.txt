@@ -1,0 +1,93 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1223860752,
+    "shortname": "semibody",
+    "displayName": {
+        "token": "semibody.name",
+        "english": "Semi Automatic Body"
+    },
+    "displayDescription": {
+        "token": "semibody.desc",
+        "english": "The firing mechanism of a semi automatic weapon."
+    },
+    "iconSprite": {
+        "instanceID": 33830
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 114314
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114314
+    },
+    "inventoryDropSound": {
+        "instanceID": 124526
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "849a5cbe3e81ae0469c9c908cb5cb2c5"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131832
+            },
+            "amount": 150.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

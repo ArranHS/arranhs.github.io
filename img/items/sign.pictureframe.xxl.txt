@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1455694274,
+    "shortname": "sign.pictureframe.xxl",
+    "displayName": {
+        "token": "sign.pictureframe.xxl",
+        "english": "XXL Picture Frame"
+    },
+    "displayDescription": {
+        "token": "sign.pictureframe.xxl.desc",
+        "english": "A double extra large canvas for artists paintings"
+    },
+    "iconSprite": {
+        "instanceID": 61712
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 69034
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69034
+    },
+    "inventoryDropSound": {
+        "instanceID": 131168
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 19396
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131762
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 200.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "e716d4b77934d334e82b7e54af38aa32"
+    },
+    "showCrosshair": false
+}
+

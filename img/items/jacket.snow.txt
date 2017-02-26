@@ -1,0 +1,109 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1616887133,
+    "shortname": "jacket.snow",
+    "displayName": {
+        "token": "jacket.snow",
+        "english": "Snow Jacket - Red"
+    },
+    "displayDescription": {
+        "token": "jacket.snow.desc",
+        "english": "A thick, high visibility Jacket. It will help keep you warm in any climate."
+    },
+    "iconSprite": {
+        "instanceID": 58966
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 43426
+    },
+    "inventoryGrabSound": {
+        "instanceID": 43426
+    },
+    "inventoryDropSound": {
+        "instanceID": 27024
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8ea0bb1f29686944f80e718ce4b88bff"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "5067fc41560bbf84887ffe649356910c"
+    },
+    "protectionProperties": {
+        "instanceID": 55850
+    },
+    "armorProperties": {
+        "instanceID": 47416
+    },
+    "movementProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132330
+            },
+            "amount": 2.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

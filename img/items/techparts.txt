@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1471284746,
+    "shortname": "techparts",
+    "displayName": {
+        "token": "teachparts.name",
+        "english": "Tech Trash"
+    },
+    "displayDescription": {
+        "token": "techparts.desc",
+        "english": "A collection of random tech parts"
+    },
+    "iconSprite": {
+        "instanceID": 71994
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 50,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 26500
+    },
+    "inventoryGrabSound": {
+        "instanceID": 26500
+    },
+    "inventoryDropSound": {
+        "instanceID": 104748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "2062a589adcca1247b0db97739dc103a"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 10.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

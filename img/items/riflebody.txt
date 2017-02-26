@@ -1,0 +1,87 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1939428458,
+    "shortname": "riflebody",
+    "displayName": {
+        "token": "riflebody.name",
+        "english": "Rifle Body"
+    },
+    "displayDescription": {
+        "token": "riflebody.desc",
+        "english": "The firing mechanism of a rifle. Used in construction of a weapon that can fire pistol ammo fully automatic"
+    },
+    "iconSprite": {
+        "instanceID": 106948
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 114314
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114314
+    },
+    "inventoryDropSound": {
+        "instanceID": 124526
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "5bc206f34137e7340861617af7865fbc"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 20.0
+        }
+    ],
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1
+}
+

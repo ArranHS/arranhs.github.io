@@ -1,0 +1,115 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1334615971,
+    "shortname": "heavy.plate.pants",
+    "displayName": {
+        "token": "heavy.plate.pants",
+        "english": "Heavy Plate Pants"
+    },
+    "displayDescription": {
+        "token": "heavy.plate.pants.desc",
+        "english": "Heavy Plate Pants"
+    },
+    "iconSprite": {
+        "instanceID": 111768
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 45382
+    },
+    "inventoryGrabSound": {
+        "instanceID": 45382
+    },
+    "inventoryDropSound": {
+        "instanceID": 17458
+    },
+    "condition": {
+        "enabled": true,
+        "max": 1000.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "ff1d7cff620d81347b619f41613811af"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "92bfd9cfd7534cd43b026fa311e6fc9e"
+    },
+    "protectionProperties": {
+        "instanceID": 83842
+    },
+    "armorProperties": {
+        "instanceID": 99504
+    },
+    "movementProperties": {
+        "instanceID": 81688
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 132522
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131944
+            },
+            "amount": 4.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 132118
+            },
+            "amount": 2.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1
+}
+

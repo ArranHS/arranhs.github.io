@@ -1,0 +1,131 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1381682752,
+    "shortname": "hat.candle",
+    "displayName": {
+        "token": "hat.candle",
+        "english": "Candle Hat"
+    },
+    "displayDescription": {
+        "token": "hat.candle.desc",
+        "english": "A hat with a candle on top. You can turn the candle on in your inventory."
+    },
+    "iconSprite": {
+        "instanceID": 118932
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 117258
+    },
+    "inventoryGrabSound": {
+        "instanceID": 117258
+    },
+    "inventoryDropSound": {
+        "instanceID": 69030
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "adedc04ca1435144bbd91ae5b97a0184"
+    },
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "2a2f7a92b67065d40ae7098cdf2a8049"
+    },
+    "protectionProperties": {
+        "instanceID": 0
+    },
+    "armorProperties": {
+        "instanceID": 0
+    },
+    "movementProperties": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 131720
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 131850
+            },
+            "amount": 5.0
+        }
+    ],
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 1,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 40,
+    "containerFlags": 8,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 131850
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 131850
+            },
+            "amount": 5.0
+        }
+    ]
+}
+
