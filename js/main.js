@@ -13,6 +13,8 @@ function main() {
 
 $('.tab').click(function() {
    $('.aboutme').slideUp();
+   //$('.tabcontent').slideToggle();
+
 });
 
 $('.topright').click(function() {
