@@ -10,35 +10,34 @@
 	<h1><font size="50">Arran's Shitshack</font></h1>
 </div><br>
 <div class="tab">
+  <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, '')">Heli Timer</a>
   <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Heli')">Heli Timer</a>
   <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Filler1')">Filler</a>
   <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Filler2')">Filler</a>
 </div>
 <div id="Heli" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <span onclick="this.parentElement.style.display='none'" class="closebutton">x</span>
   <center><h1>Helicopter Timer!</h4>
   <p>The heli timer will live here. Press the button below (once the helicopter has arrived) to start the timer and you will be alerted when the helicopter should next arrive in Rust.</p>
   <div class="helibutton">Start Timer</div>
   <div class="helitext">
-  <p>Blah blah blah blah.</p></center>
+  <p>This feature is a WIP.</p></center>
 </div>
 </div>
 <div id="Filler1" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
-  <h3>Filler</h3>
+  <span onclick="this.parentElement.style.display='none'" class="closebutton">x</span>
+  <h3>Rusty Tromb</h3>
   <p>Blah blah blah blah.</p>
 </div>
 <div id="Filler2" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <span onclick="this.parentElement.style.display='none'" class="closebutton">x</span>
   <h3>Filler</h3>
   <p>Blah blah blah blah.</p>
 </div>
 
 <p>
-	<div class="aboutme">
-    This site is purely for testing and probably will never become anything. I might use it to store a few projects on such as HTML/JS/CSS crap or stuff from my <a href="http://steamcommunity.com/id/scizornician/myworkshopfiles" class="link"/>Steam Workshop</a>.
-    Don't expect much from this website, I'm running off a days worth of knowledge from Codecademy so far so I'm pretty limited in what I can do. I am enjoying it though. :)
-    </div>
+	<div class="textbody">
+    This website is currently under revamp to suit it for the new Rust server I part own called Rusty Trombone. Rusty Trombone is a vanilla oxide server with a few plugins for QOL for features such as Kill Feeds, Join/Disconnect messages and SignArtist. The server website will contain tools such as the Heli Timer which is a WIP, a KDR display and a few other nifty features.   </div>
     <br>
 </p>
 <p>
@@ -48,8 +47,9 @@
 	</div><br>
     <div class="ruststats">
         <center><img src="img/RustLogo.png"><br>
-        <center>My <a href="http://rust-stats.com/user/76561198124582578">Rust stats</a> are pretty poor but I like to find closure in the fact that I play with below 30 fps and use a track pad. ;)</div>
+        <center>View your <a href="http://rust-stats.com">Rust stats</a> here until I have setup the KDR feature on this website. You will be asked to login via Steam. :)</div>
 </p>
 <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 <script src='js/main.js'></script>
+<script src="js/HeliClock.js"></script>
 </body>

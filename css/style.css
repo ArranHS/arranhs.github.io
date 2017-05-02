@@ -53,10 +53,17 @@ div.tab a:focus, .active {
     border-radius: 20px;
 }
 
-.topright {
+span.closebutton {
     float: right;
     cursor: pointer;
     font-size: 20px;
+}
+
+span.closebutton a:hover {
+	float: right;
+    cursor: pointer;
+    font-size: 20px;
+	color: #ce422b;
 }
 
 .link {
@@ -66,7 +73,7 @@ div.tab a:focus, .active {
 	color: white;
 }
 
-.aboutme {
+.textbody {
 	background-color: #666666;
 	color: #fff;
 	font-size: 150%;
