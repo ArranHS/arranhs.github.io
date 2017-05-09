@@ -12,13 +12,13 @@ function main() {
 }
 
 $('.tab').click(function() {
-   $('.aboutme').slideUp();
+   $('.textbody').slideUp();
    //$('.tabcontent').slideToggle();
 
 });
 
 $('.topright').click(function() {
-   $('.aboutme').slideDown();
+   $('.textbody').slideDown();
    $('a:focus').toggleClass('tab');
 
 });
