@@ -1,4 +1,4 @@
-function runDelayedWithProgress(waitIntervalSeconds, delayedAction, progressIntervalSeconds, progressAction) {
+function runHeliTimer(waitIntervalSeconds, delayedAction, progressIntervalSeconds, progressAction) {
   var startTime = new Date().getTime();
   var iid = setInterval(function() {
      var curTime = new Date().getTime()
@@ -13,8 +13,8 @@ function runDelayedWithProgress(waitIntervalSeconds, delayedAction, progressInte
   }, progressIntervalSeconds*1000);
 }
 
-runDelayedWithProgress(30*60, function() {
-      console.log("Heli should be arriving soon!")
+runHeliTimer(30*60, function() {
+      window.alert("Heli should be arriving soon!")
    }, 
    60, function(elapsed){
      console.log("No heli yet! " + elapsed);

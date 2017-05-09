@@ -2,7 +2,7 @@ function main() {
   $('.title').hide().fadeIn(1800);
   $('.tab').hide().fadeIn(2000);
   $('.tabbar').hide().fadeIn(2200);
-  $('.aboutme').hide().fadeIn(2400);
+  $('.textbody').hide().fadeIn(2400);
   $('.rustbutton').hide().fadeIn(2600);
   $('.rustbutton').on('click', function() {
     $(this).toggleClass('active');
