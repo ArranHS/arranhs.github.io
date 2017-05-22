@@ -15,7 +15,7 @@ function runHeliTimer(waitIntervalSeconds, delayedAction, progressIntervalSecond
 
 jQuery(function($) {
   $('.helibutton').click(function() {
-         runHeliTimer(30*60, function() {
+         runHeliTimer(180*60, function() {
           window.alert("Heli should be arriving soon!")
        }, 
        60, function(elapsed){
