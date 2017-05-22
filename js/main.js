@@ -41,7 +41,7 @@ function openTab(evt, tabContent) {
     }
     document.getElementById(tabContent).style.display = "block";
     evt.currentTarget.className += " active";
-    document.getElementById(aboutme).style.display = none;
+    document.getElementById(textbody).style.display = none;
 }
 
 $(document).ready(main);

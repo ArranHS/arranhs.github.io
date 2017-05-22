@@ -13,9 +13,14 @@ function runHeliTimer(waitIntervalSeconds, delayedAction, progressIntervalSecond
   }, progressIntervalSeconds*1000);
 }
 
-runHeliTimer(30*60, function() {
-      window.alert("Heli should be arriving soon!")
-   }, 
-   60, function(elapsed){
-     console.log("No heli yet! " + elapsed);
+jQuery(function($) {
+  $('.helibutton').click(function() {
+         runHeliTimer(30*60, function() {
+          window.alert("Heli should be arriving soon!")
+       }, 
+       60, function(elapsed){
+         console.log("No heli yet! " + elapsed);
+    });
+    return false;
+  });
 });
