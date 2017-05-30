@@ -24,3 +24,12 @@ jQuery(function($) {
     return false;
   });
 });
+
+/*
+runHeliTimer(30*60, function() {
+      window.alert("Heli should be arriving soon!")
+   }, 
+   60, function(elapsed){
+     console.log("No heli yet! " + elapsed);
+});
+*/
