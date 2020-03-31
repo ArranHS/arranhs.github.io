@@ -53,12 +53,17 @@ div.uppercase {
  		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
  		var img = new Image(); 
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
+ 		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
  	}
  	
  	function randomDarkHero() {
  		var randomDarkNumber = Math.floor(Math.random() * (darkHeroes.length));
  		document.getElementById('randomHero').innerHTML = darkHeroes[randomDarkNumber];
+        var img = new Image(); 
+ 		img.src = '/heroes/' + darkHeroes[randomDarkNumber] + '.jpg';
+ 		document.getElementById('randomHeroImage').innerHTML = '';
+ 		document.getElementById('randomHeroImage').appendChild(img);
  	}
 
  </script>
