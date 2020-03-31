@@ -3,6 +3,7 @@
 	color: white;
 	text-align: center;
 	font-size: 25px;
+	padding: 15px 32px;
 
 }
 .bf2-buttons:hover {
@@ -10,5 +11,6 @@
 	color: white;
 	text-align: center;
 	font-size: 25px;
+	padding: 15px 32px;
 	box-shadow: 0 0 15px ##b3e6ff;
 }
