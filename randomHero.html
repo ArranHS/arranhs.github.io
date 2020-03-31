@@ -16,8 +16,30 @@
     <title>Battlefront 2 Hero Randomizer</title>
 </head>
 <body>
-	<h1><font size="50" color="white"><center>BATTLEFRONT 2 HERO RANDOMIZER</center></font></h1>
+	<center>
+	<h1><font size="50" color="white">BATTLEFRONT 2 HERO RANDOMIZER</font></h1>
+	<div id="randomHero">
+		
+	</div>
+	<button onclick="randomLightHero()">RANDOM LIGHT HERO</button>
+	<button onclick="randomDarkHero()">RANDOM DARK HERO</button>
 
+    </center>
 
+ <script type="text/javascript">
+ 	var lightHeroes = ['Anakin Skywalker', 'Obi-Wan Kenobi', 'Yoda', 'Luke Skywalker', 'Leia Organa', 'Han Solo', 'Chewbacca', 'Lando Calrissian', 'Rey', 'Finn', 'BB-8'];
+ 	var darkHeroes = ['Darth Maul', 'Count Dooku', 'Emperor Palpatine', 'General Grevious', 'Darth Vader', 'Iden Versio', 'Boba Fett', 'Bossk', 'Kylo Ren', 'Captain Phasma', 'BB-9E'];
 
+ 	function randomLightHero() {
+ 		var randomLightNumber = Math.floor(Math.random() * (lightHeroes.length));
+ 		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
+ 	}
+ 	
+ 	function randomDarkHero() {
+ 		var randomDarkNumber = Math.floor(Math.random() * (darkHeroes.length));
+ 		document.getElementById('randomHero').innerHTML = darkHeroes[randomDarkNumber];
+ 	}
+
+ </script>
 </body>
+</html>
