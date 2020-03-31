@@ -132,5 +132,11 @@ span.closebutton a:hover {
 	color: white;
 	display: none;
 }
+
+@font-face {
+  font-family: BF2;
+  src: url(bf2-font.otf);
+  font-weight: bold;
+}
 	
 
