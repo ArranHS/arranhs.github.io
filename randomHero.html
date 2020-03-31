@@ -49,12 +49,12 @@ div.uppercase {
 
  	function randomLightHero() {
  		var randomLightNumber = Math.floor(Math.random() * (lightHeroes.length));
- 		document.getElementById('randomHero').innerHTML = <img src ="/heroes/" + lightHeroes[randomLightHero] + ".jpg"> <br> + lightHeroes[randomLightNumber];
+ 		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
  	}
  	
  	function randomDarkHero() {
  		var randomDarkNumber = Math.floor(Math.random() * (darkHeroes.length));
- 		document.getElementById('randomHero').innerHTML = <img src ="/heroes/" + darkHeroes[randomDarkNumber] + ".jpg"><br> + darkHeroes[randomDarkNumber];
+ 		document.getElementById('randomHero').innerHTML = darkHeroes[randomDarkNumber];
  	}
 
  </script>
