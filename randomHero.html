@@ -53,7 +53,7 @@ div.uppercase {
  		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
  		var img = new Image(); 
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
- 		document.getElementById('randomHeroImage').appendChild(img);
+ 		document.getElementById('randomHeroImage').innerHTML = img;
  	}
  	
  	function randomDarkHero() {
