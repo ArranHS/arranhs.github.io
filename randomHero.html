@@ -50,6 +50,9 @@ div.uppercase {
  	function randomLightHero() {
  		var randomLightNumber = Math.floor(Math.random() * (lightHeroes.length));
  		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
+ 		var img = new Image(); 
+ 		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
+ 		document.getElementById('randomHeroImage').appendChild(img);
  	}
  	
  	function randomDarkHero() {
