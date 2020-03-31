@@ -8,11 +8,5 @@
 }
 
 .bf2-buttons:hover {
-	background-color: #413F3E;
-	color: white;
-	text-align: center;
-	outline: none;
-	font-size: 25px;
-	padding: 15px 32px;
 	box-shadow: 15px 15px 15px 15px ##b3e6ff;
 }
