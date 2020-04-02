@@ -66,7 +66,7 @@ div.heroImageBorder {
  		var img = new Image(); 
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
  		document.getElementById('randomHeroImage').innerHTML = '';
- 		document.getElementById('randomHeroImage').appendChild(img).innerHTML = "<button onclick="clearImage()"><font color="white">x</font></button>";
+ 		document.getElementById('randomHeroImage').appendChild(img);
  	}
  	
  	function randomDarkHero() {
