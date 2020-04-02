@@ -12,3 +12,18 @@
 .bf2-buttons:hover {
 	box-shadow: 0 5px 20px #ffffff;
 }
+
+.bf2-close-button {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	outline: none;
+	font-size: 25px;
+	padding: 5px 22px;
+	border: solid;
+	border-width: 5px;
+}
+
+.bf2-close-button:hover {
+	box-shadow: 0 5px 20px #ffffff;
+}
