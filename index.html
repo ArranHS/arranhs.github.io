@@ -58,6 +58,7 @@ div.heroImageBorder {
  	function clearImage() {
     document.getElementById('randomHeroImage').innerHTML = '';
     document.getElementById('randomHero').innerHTML = '';
+    document.getElementById('clearImage').innerHTML = '';
   }
 
   function randomLightHero() {
@@ -67,7 +68,7 @@ div.heroImageBorder {
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
-    document.getElementById('clearImage').innerHTML ='<button onclick="clearImage()"><font color="white">x</font></button>';
+    document.getElementById('clearImage').innerHTML ='<button class="bf2-close-button" onclick="clearImage()"><font color="white">x</font></button>';
 
  	}
  	
