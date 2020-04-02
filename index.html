@@ -47,7 +47,8 @@ div.heroImageBorder {
 	<div id="randomHeroImage" class="heroImageBorder"></div>
 	<font size = 20 color = white><div class="uppercase" id="randomHero"></div></font>
 	<button class ="bf2-buttons" onclick="randomLightHero()">RANDOM HERO</button>
-	<button class ="bf2-buttons" onclick="randomDarkHero()">RANDOM VILLAIN</button>
+	<button class ="bf2-buttons" onclick="randomDarkHero()">RANDOM VILLAIN</button> <br>
+  <button class ="bf2-buttons" onclick="clearImage()">x</button>
 
     </center>
 
@@ -72,6 +73,10 @@ div.heroImageBorder {
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
  	}
+
+  function clearImage() {
+    document.getElementById('randomHeroImage').innerHTML = '';
+  }
 
  </script>
 </body>
