@@ -44,9 +44,9 @@ div.heroImageBorder {
 <body style="background-color: #000000">
 	<center>
 	<h1><img src ='img/bf2-logo.png' width = '500' height = '120'><br><font size="50" color="white">HERO RANDOMIZER</font></h1>
-	<div id="randomHeroImage" class="heroImageBorder">test</div>
+	<div id="randomHeroImage" class="heroImageBorder"></div><div id="clearImage"></div>
 	<font size = 20 color = white><div class="uppercase" id="randomHero"></div></font>
-	<button class ="bf2-buttons" onclick="randomLightHero()"> RANDOM HERO </button>
+	<button class ="bf2-buttons" onclick="randomLightHero()">RANDOM HERO</button>
 	<button class ="bf2-buttons" onclick="randomDarkHero()">RANDOM VILLAIN</button> <br>
 
     </center>
@@ -67,6 +67,7 @@ div.heroImageBorder {
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
+    document.getElementById('clearImage').innerHTML ='<button onclick="clearImage()"><font color="white">x</font></button>';
 
  	}
  	
