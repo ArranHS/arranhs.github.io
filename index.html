@@ -55,7 +55,12 @@ div.heroImageBorder {
  	var lightHeroes = ['Anakin Skywalker', 'Obi-Wan Kenobi', 'Yoda', 'Luke Skywalker', 'Leia Organa', 'Han Solo', 'Chewbacca', 'Lando Calrissian', 'Rey', 'Finn', 'BB-8'];
  	var darkHeroes = ['Darth Maul', 'Count Dooku', 'Emperor Palpatine', 'General Grevious', 'Darth Vader', 'Iden Versio', 'Boba Fett', 'Bossk', 'Kylo Ren', 'Captain Phasma', 'BB-9E'];
 
- 	function randomLightHero() {
+ 	function clearImage() {
+    document.getElementById('randomHeroImage').innerHTML = '';
+    document.getElementById('randomHero').innerHTML = '';
+  }
+
+  function randomLightHero() {
  		var randomLightNumber = Math.floor(Math.random() * (lightHeroes.length));
  		document.getElementById('randomHero').innerHTML = lightHeroes[randomLightNumber];
  		var img = new Image(); 
@@ -72,11 +77,6 @@ div.heroImageBorder {
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
  	}
-
-  function clearImage() {
-    document.getElementById('randomHeroImage').innerHTML = '';
-    document.getElementById('randomHero').innerHTML = '';
-  }
 
  </script>
 </body>
