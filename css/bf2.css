@@ -13,6 +13,23 @@
 	box-shadow: 0 5px 20px #ffffff;
 }
 
+.bf2-hero-buttons {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	outline: none;
+	font-size: 25px;
+	padding: 15px 32px;
+	padding-left: 15px
+	padding-right: 15px;
+	border: solid;
+	border-width: 5px;
+}
+
+.bf2-hero-buttons:hover {
+	box-shadow: 0 5px 20px #ffffff;
+}
+
 .bf2-close-button {
 	background-color: #000000;
 	color: white;
