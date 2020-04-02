@@ -40,3 +40,10 @@
 	border: none;
 }
 
+div.heroImageBorder {
+  border: solid;
+  border-color: #ffffff;
+  border-width: thick;
+  box-shadow: 0 5px 20px #ffffff;
+}
+
