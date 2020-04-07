@@ -36,8 +36,10 @@
 	background-color: #000000;
 	color: white;
 	text-align: center;
-	font-size: 25px;
-	border: none;
+	font-size: 30px;
+	border: solid;
+	border-width: thick;
+	border-color: white;
 }
 
 div.heroImageBorder {

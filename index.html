@@ -27,6 +27,8 @@ body {
 
 div.uppercase {
   text-transform: uppercase;
+  /*float: left;*/
+  width: auto;
 }
 
 </style>
@@ -38,7 +40,8 @@ div.uppercase {
 	<center>
 	<h1><img src ='img/bf2-logo.png' width = '500' height = '120'><br><font size="50" color="white">HERO RANDOMIZER</font></h1>
 	<div id="randomHeroImage" class="heroImageBorder"></div>
-	<font size = "50" color = white><div class="uppercase" id="randomHero"></div></font><div id="clearImage"></div>
+	<font size = "50" color = white><div class="uppercase" id="randomHero"></div></font>
+  <!-- <div id="clearImage"></div></br> -->
 	<button class ="bf2-buttons" onclick="randomLightHero()">RANDOM HERO</button>
 	<button class ="bf2-buttons" onclick="randomDarkHero()">RANDOM VILLAIN</button> <br>
 
@@ -61,7 +64,7 @@ div.uppercase {
  		img.src = '/heroes/' + lightHeroes[randomLightNumber] + '.jpg';
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
-    document.getElementById('clearImage').innerHTML ='<button class="bf2-close-button" onclick="clearImage()"><font color="white">x</font></button>';
+    //document.getElementById('clearImage').innerHTML ='<button class="bf2-close-button" onclick="clearImage()">x</button>';
 
  	}
  	
@@ -72,7 +75,7 @@ div.uppercase {
  		img.src = '/heroes/' + darkHeroes[randomDarkNumber] + '.jpg';
  		document.getElementById('randomHeroImage').innerHTML = '';
  		document.getElementById('randomHeroImage').appendChild(img);
-    document.getElementById('clearImage').innerHTML ='<button class="bf2-close-button" onclick="clearImage()"><font color="white">x</font></button>';
+    //document.getElementById('clearImage').innerHTML ='<button class="bf2-close-button" onclick="clearImage()">x</button>';
  	}
 
  </script>
